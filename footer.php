@@ -4,7 +4,7 @@
 		</div>
 		<div id="footer">
 			<div class="footer-text">
-				Copyright © 2013 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> - Todos los derechos reservados. Diseño original por <a href="http://www.vozidea.com/">Vozidea</a>.<br/>
+				Copyright © 2013 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> - Todos los derechos reservados. Diseño original por www.Vozidea.com.<br/>
 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> No Aloja Ningún Archivo En Sus Servidores, Todo Contenido De La Web Hace Referencia a Servidores Externos.
 			</div>
 		</div>
