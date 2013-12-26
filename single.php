@@ -18,6 +18,11 @@
 				</div>
 			</div>
 		<?php endwhile; endif; ?>
+		<?php if(function_exists(dsq_is_installed) && !is_preview()) {
+				if (get_option('disqus_active') === '1') {
+					echo '<div class="comentarios">';
+					comments_template();
+					echo '</div>';	}  } ?>
 		</div>
 	</div>
 	<div id="colRight"><?php get_sidebar(); ?></div>
