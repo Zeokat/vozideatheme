@@ -7,6 +7,7 @@ Author URI: http://www.vozidea.com
 Version: v1.2 beta
 */
 
+
 * { margin: 0; padding: 0; }
 
 body { font: 14px/1.4 Arial, Georgia, Serif; }
@@ -29,7 +30,7 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 	width: 1150px;
 	border: 1px solid #505050;
 	background: url("images/header_bg.png") repeat-x bottom;
-	padding-top: 28px;
+	padding-top: 38px;
 }
 
 .logo {
@@ -101,7 +102,7 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 /* ==== MENU ==== */
 #menu-wrap {
 	position:fixed;
-	height: 27px;
+	height: 38px;
 	width: 1150px;
 	border: 1px solid #838383;
 	background: #f1f1f1 url("images/footer_bg.png") repeat-x;
@@ -114,7 +115,7 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 
 #menu-center {
 	padding-left: 80px;
-	height: 27px;
+	height: 38px;
 }
 
 .smoothmenu {
@@ -125,7 +126,7 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 	z-index: 100;
 	list-style-type: none;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
@@ -134,7 +135,7 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 	display: inline;
 	float: left;
 	border-right: 1px solid #545454;
-	line-height: 17px;
+	line-height: 28px;
 }
 
 .smoothmenu ul li:first-child {
@@ -208,8 +209,6 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 	background: #f1f8fc url("images/postbox_bg.png") repeat;
 	height: 240px;
 	font-size: 12px;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 5px;
 	border: 1px solid #838383;
 }
 
@@ -222,11 +221,9 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 	font-size: 11px;
 	text-align: center;
 	line-height: 10px;
-	background: url("images/postboxheader.png") repeat-x;
+	background: #d0e9fc;
+	background: linear-gradient(to bottom, #d0e9fc 0%,#dbeffc 5%,#e4f3fb 13%,#ebf6fc 78%,#ecf5fc 90%,#deeffd 98%,#d5ecfd 100%);
 	border-bottom: 1px solid #838383;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-top-left-radius: 5px;
 	width: 151px;
 	height: 41px;
 	padding: 0 2px 0 5px;
@@ -242,8 +239,6 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 	font-size: 11px;
 	background: url("images/postboxfooter.png") repeat-x;
 	border-top: 1px solid #434343;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
 	width: 158px;
 	height: 36px;
 }
@@ -351,7 +346,8 @@ body { font: 14px/1.4 Arial, Georgia, Serif; }
 .entry-header {
 	border-bottom: 1px solid #838383;
 	height: 41px;
-	background: url("images/postboxheader.png") repeat-x;
+	background: #d0e9fc;
+	background: linear-gradient(to bottom, #d0e9fc 0%,#dbeffc 5%,#e4f3fb 13%,#ebf6fc 78%,#ecf5fc 90%,#deeffd 98%,#d5ecfd 100%);
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
@@ -661,4 +657,40 @@ a img.aligncenter {
 
 fieldset {
 	border: none;
+}
+
+/* Calendario sidebar widget */
+.sidebar #wp-calendar {
+	text-align: center;
+	width: 100%;
+}
+
+.sidebar #wp-calendar td {
+	padding: 5px;
+}
+
+/* Calendario footerbar widget */
+.boxFooter #wp-calendar {
+	color: #989898;
+	text-align: center;
+	width: 100%;
+}
+
+.boxFooter #wp-calendar td a {
+	color: #028099;
+}
+
+.boxFooter #wp-calendar td a:hover {
+	text-decoration: underline;
+	color: #028099;
+}
+
+/*Disqus comenatrios*/
+.comentarios {
+	border-top: 1px solid #838383;
+}
+
+#disqus_thread {
+	width: 760px;
+	margin: 10px auto;
 }
