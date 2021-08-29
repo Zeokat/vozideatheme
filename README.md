@@ -1,4 +1,4 @@
-vozideatheme
+vozideatheme (proyecto obsoleto, no se actulizará)
 ============
 
 Theme de películas gratis para WordPress desarrollado por Ze0 de [Vozidea.com](http://www.vozidea.com/)
